@@ -2,14 +2,14 @@
 	"manifest_version": 2,
 	"name": "Hello World",
 	"version": "1.0",
-	"description": "A hello world extension",
+	"description": "A hello world extension!",
 	"icons": {
-		"Gaaki": "HGfzEXG.jpeg",
-		"Gakki2": "a5c27d1ed21b0ef4acc4b0b9ddc451da81cb3e2c.jpeg"
-
+		"128": "gakki_resized.png",
+		"48": "gakki2_resized.png"
+		//"16": "mario.png"
 	},
 	"browser_action": {
-		"default_icon": "HGfzEXG.jpeg",
+		"default_icon": "gakki_resized.png",
 		"default_popup": "popup.html"
-	},
+	}
 }
